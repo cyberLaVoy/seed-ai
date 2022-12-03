@@ -1,6 +1,6 @@
 # Seed AI
 
-### Initial Idea
+## Initial Idea
 
 The intention here is to create a program that implements a recursively self-improving artificial intelligence.
 
@@ -13,7 +13,7 @@ Another approach is to design the AI with a system for self-assessment and impro
 Ultimately, the key to implementing a recursively self-improving AI is to design it with the ability to continually learn, adapt, and improve itself in a way that aligns with its goals and capabilities. This may require a combination of machine learning algorithms, self-assessment systems, and other innovative approaches.
 
 
-### A Possible Way
+## A Possible Way
 
 Here is one possible way to implement a recursively self-improving AI:
 
@@ -25,7 +25,7 @@ Here is one possible way to implement a recursively self-improving AI:
 
 By following these steps, it is possible to create a recursively self-improving AI that can continually learn, adapt, and improve itself in pursuit of its defined goals and capabilities.
 
-### Pseudo Code in Python
+## Pseudo Code in Python
 
 ```python
 # Define the AI's goals and capabilities
