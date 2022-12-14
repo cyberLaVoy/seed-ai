@@ -25,7 +25,7 @@ Here is one possible way to implement a recursively self-improving AI:
 
 By following these steps, it is possible to create a recursively self-improving AI that can continually learn, adapt, and improve itself in pursuit of its defined goals and capabilities.
 
-## Pseudo Code in Python
+## Pseudo Code, in Python
 
 ```python
 # Define the AI's goals and capabilities
@@ -61,7 +61,7 @@ while True:
     implement_improvements(resources)
 ```
 
-## More Pseudo Code in Python
+## More Pseudo Code, in Python
 ```python
 # Define the AI's goals and capabilities
 def define_goals_and_capabilities():
@@ -129,4 +129,22 @@ def main():
 
 # Run the main function to start the AI's self-improvement process
 main()
+```
+
+## Even more pseudo code - Yay!
+```
+CODE_LOCATION = "code/location/"
+
+# agent as the code base itself
+agent = load(CODE_LOCATION)
+
+loop forever:
+    # create sandbox for self-improvement attempt
+    try:
+        agent.attempt_improvement()
+        if agent.has_improved:
+            # save improved version
+            agent.save()
+            # replace self with improved version
+            agent = load(CODE_LOCATION)
 ```
